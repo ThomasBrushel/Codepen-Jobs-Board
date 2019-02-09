@@ -22,7 +22,7 @@ function App() {
 
   return(
     <React.Fragment>
-      <Header title="job Board"/>
+      <Header title="Codepen Job Board"/>
       <div className="container">
         <div className="grid">
           {data.jobs.map(item =>(
