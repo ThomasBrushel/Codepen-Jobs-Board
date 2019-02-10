@@ -7,7 +7,10 @@ const AtomHeading = (props) => {
   } = props;
 
   const HeadingStyles = {
-    margin: '0'
+    margin: '0',
+    lineHeight: '1.5',
+    fontFamily: 'sans-serif',
+    textTransform: 'capitalize'
   }
 
   return (
