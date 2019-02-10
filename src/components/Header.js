@@ -8,11 +8,12 @@ const Header = (props) => {
   } = props;
 
   const HeaderStyles = {
-    background: '#333',
+    background: '#3e4149',
     color: 'white',
     padding: '.5em',
     textTransform: 'uppercase',
-    marginBottom: '2em'
+    marginBottom: '2em',
+    fontSize: '.8em'
   }
 
   return (

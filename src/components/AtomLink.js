@@ -9,7 +9,7 @@ const AtomLink = (props) => {
   } = props;
 
   const btnClasses = {
-    background: '#333',
+    background: '#fd999a',
     padding: '.6em 2em',
     color: 'white',
     textDecoration: 'none',
