@@ -6,9 +6,14 @@ const AtomCopy = (props) => {
     text
   } = props;
 
+  const copyStyles = {
+    fontFamily: 'sans-serif',
+    lineHeight: '1.5'
+  }
+
   return (
     <div>
-      <p>{text}</p>
+      <p style={copyStyles}>{text}</p>
     </div>
   )
 }

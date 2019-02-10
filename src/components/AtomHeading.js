@@ -6,7 +6,7 @@ const AtomHeading = (props) => {
     text
   } = props;
 
-  const HeadingStyles = {
+  const headingStyles = {
     margin: '0',
     lineHeight: '1.5',
     fontFamily: 'sans-serif',
@@ -15,7 +15,7 @@ const AtomHeading = (props) => {
 
   return (
     <React.Fragment>
-      <h1 style={HeadingStyles}>{ text }</h1>
+      <h1 style={headingStyles}>{ text }</h1>
     </React.Fragment>
   )
 }

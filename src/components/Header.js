@@ -7,7 +7,7 @@ const Header = (props) => {
     title
   } = props;
 
-  const HeaderStyles = {
+  const headerStyles = {
     background: '#3e4149',
     color: 'white',
     padding: '.5em',
@@ -18,7 +18,7 @@ const Header = (props) => {
 
   return (
     <React.Fragment>
-      <header style={ HeaderStyles }>
+      <header style={ headerStyles }>
         <div className="container">
           <AtomHeading text={ title }></AtomHeading>
         </div>
