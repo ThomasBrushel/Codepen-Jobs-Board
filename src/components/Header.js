@@ -1,5 +1,6 @@
 import React from 'react';
 import AtomHeading from '../components/AtomHeading';
+import AtomLink from '../components/AtomLink';
 
 const Header = (props) => {
 
@@ -19,8 +20,9 @@ const Header = (props) => {
   return (
     <React.Fragment>
       <header style={ headerStyles }>
-        <div className="container">
+        <div className="container flex-2">
           <AtomHeading text={ title }></AtomHeading>
+          <AtomLink text="Post New Job" href="https://codepen.io/job/new/" target="_blank"/>
         </div>
       </header>
     </React.Fragment>

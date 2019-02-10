@@ -10,11 +10,12 @@ const AtomLink = (props) => {
 
   const btnClasses = {
     background: '#fd999a',
-    padding: '.6em 2em',
+    padding: '.7em 2em',
     color: 'white',
     textDecoration: 'none',
     fontFamily: 'sans-serif',
-    borderRadius: '1.5em'
+    borderRadius: '1.5em',
+    lineHeight: '1.5'
   }
 
   return (

@@ -8,6 +8,11 @@
   padding: .5em;
 }
 
+.flex-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
