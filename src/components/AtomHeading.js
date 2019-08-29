@@ -6,16 +6,9 @@ const AtomHeading = (props) => {
     text
   } = props;
 
-  const headingStyles = {
-    margin: '0',
-    lineHeight: '1.5',
-    fontFamily: 'sans-serif',
-    textTransform: 'capitalize'
-  }
-
   return (
     <React.Fragment>
-      <h1 style={headingStyles}>{ text }</h1>
+      <h1>{ text }</h1>
     </React.Fragment>
   )
 }
