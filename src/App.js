@@ -11,7 +11,7 @@ function App() {
 
   const fetchData = async () => {
     const result = await axios(
-      'https://codepen.io/jobs.json'
+      'https://cors-anywhere.herokuapp.com/https://codepen.io/jobs.json'
     );
     setData(result.data);
   }
